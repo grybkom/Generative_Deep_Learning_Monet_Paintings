@@ -6,3 +6,7 @@ Generative adversarial networks (GANs) consist of two or more neural networks. T
 **Citation:**
 
 Amy Jang, Ana Sofia Uzsoy, Phil Culliton. (2020). I’m Something of a Painter Myself. Kaggle. https://kaggle.com/competitions/gan-getting-started
+
+![monet_2290](https://github.com/user-attachments/assets/8928cb61-125b-41fb-b7e6-91a3ec180be7)
+
+![monet_4322](https://github.com/user-attachments/assets/55dd79d3-bb1c-48b8-991b-0a806d9bce16)
