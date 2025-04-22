@@ -11,8 +11,6 @@ They are trained in a zero-sum game: the generator tries to fool the discriminat
 
 The goal is to generate 7,000–10,000 images that closely mimic Monet’s artistic style.
 
----
-
 **Data & Methodology:**
 
 - The data used for this work is available at Kaggle as part of the competition, I’m Something of a Painter Myself.
