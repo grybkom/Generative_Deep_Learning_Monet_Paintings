@@ -13,17 +13,6 @@ The goal is to generate 7,000–10,000 images that closely mimic Monet’s artis
 
 ---
 
-**Architecture:**
-- **Generator:**
-  - Encoder → Bottleneck → Decoder architecture
-  - Downsampling with convolutional layers
-  - Upsampling with transposed convolutions
-- **Discriminator:**
-  - Spectral Normalization to improve training stability
-- **Loss Functions:**
-  - Adversarial Loss (standard GAN loss)
-  - Perceptual Loss calculated using a pre-trained VGG network
-
 **Data & Methodology:**
 
 - The data used for this work is available at Kaggle as part of the competition, I’m Something of a Painter Myself.
@@ -34,6 +23,19 @@ The goal is to generate 7,000–10,000 images that closely mimic Monet’s artis
 - **Languge:** Python
   - [PyTorch](https://pytorch.org/)
   - [Torchvision](https://pytorch.org/vision/stable/index.html)
+
+**Architecture:**
+
+- **Generator:**
+  - Encoder → Bottleneck → Decoder architecture
+  - Downsampling with convolutional layers
+  - Upsampling with transposed convolutions
+- **Discriminator:**
+  - Spectral Normalization to improve training stability
+- **Loss Functions:**
+  - Adversarial Loss (standard GAN loss)
+  - Perceptual Loss calculated using a pre-trained VGG network
+---
 
 **Examples of Generated Images**
 
