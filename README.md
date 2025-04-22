@@ -2,7 +2,7 @@
 This project builds and trains a generative adversarial network (GAN) to transform real-world photos into images that resemble the painting style of Claude Monet.
 
 ---
-
+**Background**
 Generative Adversarial Networks (GANs) consist of two neural networks:  
 - **Generator** – learns to produce realistic images in Monet's style.  
 - **Discriminator** – learns to distinguish between real Monet paintings and generated images.
@@ -14,13 +14,13 @@ The goal is to generate 7,000–10,000 images that closely mimic Monet’s artis
 ---
 
 **Architecture:**
-- *Generator*:
+- **Generator:**
   - Encoder → Bottleneck → Decoder architecture
   - Downsampling with convolutional layers
   - Upsampling with transposed convolutions
-- *Discriminator:*
+- **Discriminator:**
   - Spectral Normalization to improve training stability
-- *Loss Functions:*
+- **Loss Functions:**
   - Adversarial Loss (standard GAN loss)
   - Perceptual Loss calculated using a pre-trained VGG network
 
@@ -31,7 +31,7 @@ The goal is to generate 7,000–10,000 images that closely mimic Monet’s artis
   - 7028 photos sized 256x256 in JPEG format
   - Amy Jang, Ana Sofia Uzsoy, Phil Culliton. (2020). I’m Something of a Painter Myself. Kaggle. https://kaggle.com/competitions/gan-getting-started
 
-- Languge: python
+- Languge: Python
 
 **Examples of Generated Images**
 
