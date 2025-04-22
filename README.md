@@ -3,10 +3,26 @@ This project builds and trains a generative adversarial network (GAN) to transfo
 
 ---
 
+Generative Adversarial Networks (GANs) consist of two neural networks:  
+- **Generator** – learns to produce realistic images in Monet's style.  
+- **Discriminator** – learns to distinguish between real Monet paintings and generated images.
 
-**Background:**
+They are trained in a zero-sum game: the generator tries to fool the discriminator, while the discriminator gets better at identifying fakes.
 
-Generative adversarial networks (GANs) consist of two or more neural networks, a generator network that creates images and a discriminator network to train the generator. The discriminator classifies the images as real or fake. These are called adversarial networks because they are competing. The generator is working to maximize the chances that a mistake is made by the discriminator, and the discriminator is trying to minimize the chances of making a mistake. The task is to generate 7,000 to 10,000 images that are in the style of Monet’s paintings and fool the discriminator. 
+The goal is to generate 7,000–10,000 images that closely mimic Monet’s artistic style.
+
+---
+
+**Architecture:**
+- *Generator*:
+  - Encoder → Bottleneck → Decoder architecture
+  - Downsampling with convolutional layers
+  - Upsampling with transposed convolutions
+- *Discriminator:*
+  - Spectral Normalization to improve training stability
+- *Loss Functions:*
+  - Adversarial Loss (standard GAN loss)
+  - Perceptual Loss calculated using a pre-trained VGG network
 
 **Data & Methodolog:**
 
