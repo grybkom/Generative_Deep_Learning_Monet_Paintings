@@ -1,5 +1,8 @@
 # GAN for Image Style Transfer of Paintings by Claude Monet
-Build and train generative adversarial networks using the paintings of Claude Monet.
+This project builds and trains a generative adversarial network (GAN) to transform real-world photos into images that resemble the painting style of Claude Monet.
+
+---
+
 
 **Background:**
 
@@ -8,8 +11,11 @@ Generative adversarial networks (GANs) consist of two or more neural networks, a
 **Data & Methodolog:**
 
 - The data used for this work is available at Kaggle as part of the competition, I’m Something of a Painter Myself.
-
+  - 300 Monet paintings sized 256x256 in JPEG format
+  - 7028 photos sized 256x256 in JPEG format
   - Amy Jang, Ana Sofia Uzsoy, Phil Culliton. (2020). I’m Something of a Painter Myself. Kaggle. https://kaggle.com/competitions/gan-getting-started
+
+- Languge: python
 
 **Examples of Generated Images**
 
