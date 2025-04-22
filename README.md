@@ -24,7 +24,7 @@ The goal is to generate 7,000–10,000 images that closely mimic Monet’s artis
   - Adversarial Loss (standard GAN loss)
   - Perceptual Loss calculated using a pre-trained VGG network
 
-**Data & Methodolog:**
+**Data & Methodology:**
 
 - The data used for this work is available at Kaggle as part of the competition, I’m Something of a Painter Myself.
   - 300 Monet paintings sized 256x256 in JPEG format
