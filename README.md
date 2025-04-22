@@ -44,5 +44,7 @@ The goal is to generate 7,000–10,000 images that closely mimic Monet’s artis
 ![monet_4622](https://github.com/user-attachments/assets/a01c1f0e-47ff-4ed0-8241-62ce35e0c26b)
 ![monet_4322](https://github.com/user-attachments/assets/55dd79d3-bb1c-48b8-991b-0a806d9bce16)
 
+**Author:**
 
+Michael Grybko - GitHub username: grybkom
 
