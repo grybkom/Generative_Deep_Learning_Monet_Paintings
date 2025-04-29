@@ -14,16 +14,18 @@ The goal is to generate 7,000–10,000 images that closely mimic Monet’s artis
 
 ### Data & Methodology
 
+#### Data
 - The data used for this work is available at Kaggle as part of the competition, I’m Something of a Painter Myself.
   - 300 Monet paintings sized 256x256 in JPEG format
   - 7028 photos sized 256x256 in JPEG format
   - Amy Jang, Ana Sofia Uzsoy, Phil Culliton. (2020). I’m Something of a Painter Myself. Kaggle. https://kaggle.com/competitions/gan-getting-started
 
-- **Language:** Python
+#### Language
+- Python
   - [PyTorch](https://pytorch.org/)
   - [Torchvision](https://pytorch.org/vision/stable/index.html)
 
-### Architecture:
+#### Architecture
 
 - **Generator:**
   - Encoder → Bottleneck → Decoder architecture
@@ -34,6 +36,9 @@ The goal is to generate 7,000–10,000 images that closely mimic Monet’s artis
 - **Loss Functions:**
   - Adversarial Loss (standard GAN loss)
   - Perceptual Loss calculated using a pre-trained VGG network
+ 
+### Hardware: 
+  - NVIDIA TESLA P100 GPU accelerator (ran on Kaggle's platform)
 ---
 
 ### Examples of Generated Images
