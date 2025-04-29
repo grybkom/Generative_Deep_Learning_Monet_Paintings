@@ -28,7 +28,7 @@ The goal is to generate 7,000–10,000 images that closely mimic Monet’s artis
 #### Architecture
 
 - **Generator:**
-  - Encoder → Bottleneck → Decoder architecture
+  - Encoder → Bottleneck → Decoder 
   - Downsampling with convolutional layers
   - Upsampling with transposed convolutions
 - **Discriminator:**
