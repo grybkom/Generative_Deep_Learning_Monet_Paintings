@@ -2,7 +2,8 @@
 This project builds and trains a generative adversarial network (GAN) to transform real-world photos into images that resemble the painting style of Claude Monet.
 
 ---
-**Background**
+### Background
+
 Generative Adversarial Networks (GANs) consist of two neural networks:  
 - **Generator** – learns to produce realistic images in Monet's style.  
 - **Discriminator** – learns to distinguish between real Monet paintings and generated images.
@@ -11,7 +12,7 @@ They are trained in a zero-sum game: the generator tries to fool the discriminat
 
 The goal is to generate 7,000–10,000 images that closely mimic Monet’s artistic style.
 
-**Data & Methodology:**
+### Data & Methodology
 
 - The data used for this work is available at Kaggle as part of the competition, I’m Something of a Painter Myself.
   - 300 Monet paintings sized 256x256 in JPEG format
@@ -22,7 +23,7 @@ The goal is to generate 7,000–10,000 images that closely mimic Monet’s artis
   - [PyTorch](https://pytorch.org/)
   - [Torchvision](https://pytorch.org/vision/stable/index.html)
 
-**Architecture:**
+### Architecture:
 
 - **Generator:**
   - Encoder → Bottleneck → Decoder architecture
@@ -35,7 +36,7 @@ The goal is to generate 7,000–10,000 images that closely mimic Monet’s artis
   - Perceptual Loss calculated using a pre-trained VGG network
 ---
 
-**Examples of Generated Images**
+### Examples of Generated Images
 
 ![monet_3315](https://github.com/user-attachments/assets/a74db28d-ac0a-4e0d-ba02-329d9a7a525b)
 ![monet_5341](https://github.com/user-attachments/assets/a2eccaa7-2125-428d-aeeb-4f3f8497c87d)
@@ -44,7 +45,7 @@ The goal is to generate 7,000–10,000 images that closely mimic Monet’s artis
 ![monet_4622](https://github.com/user-attachments/assets/a01c1f0e-47ff-4ed0-8241-62ce35e0c26b)
 ![monet_4322](https://github.com/user-attachments/assets/55dd79d3-bb1c-48b8-991b-0a806d9bce16)
 
-**Author:**
+### Author
 
 Michael Grybko - GitHub username: grybkom
 
