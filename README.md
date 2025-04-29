@@ -37,7 +37,7 @@ The goal is to generate 7,000–10,000 images that closely mimic Monet’s artis
   - Adversarial Loss (standard GAN loss)
   - Perceptual Loss calculated using a pre-trained VGG network
  
-#### Hardware: 
+#### Hardware 
   - NVIDIA TESLA P100 GPU accelerator (ran on Kaggle's platform)
 ---
 
