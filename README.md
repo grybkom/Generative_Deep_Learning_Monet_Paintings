@@ -18,7 +18,7 @@ The goal is to generate 7,000–10,000 images that closely mimic Monet’s artis
   - 7028 photos sized 256x256 in JPEG format
   - Amy Jang, Ana Sofia Uzsoy, Phil Culliton. (2020). I’m Something of a Painter Myself. Kaggle. https://kaggle.com/competitions/gan-getting-started
 
-- **Languge:** Python
+- **Language:** Python
   - [PyTorch](https://pytorch.org/)
   - [Torchvision](https://pytorch.org/vision/stable/index.html)
 
